@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 520" role="img" aria-label="Notebook exibindo a loja de aplicativos">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eaf2ff"/>
+      <stop offset="1" stop-color="#e3e8ff"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3d5bd6"/>
+      <stop offset="1" stop-color="#2a43a8"/>
+    </linearGradient>
+    <linearGradient id="base" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dfe5f7"/>
+      <stop offset="1" stop-color="#b8c3e4"/>
+    </linearGradient>
+    <linearGradient id="peach" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffc4ab"/>
+      <stop offset="1" stop-color="#f7926f"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffa04a"/>
+      <stop offset="1" stop-color="#f0611a"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0a84ff"/>
+      <stop offset="1" stop-color="#4ea3f8"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#1e3a8a" flood-opacity=".16"/>
+    </filter>
+    <filter id="blur"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+
+  <!-- fundo -->
+  <circle cx="300" cy="262" r="220" fill="url(#bg)"/>
+  <ellipse cx="300" cy="420" rx="210" ry="18" fill="#1e3a8a" opacity=".14" filter="url(#blur)"/>
+
+  <!-- notebook -->
+  <g filter="url(#shadow)">
+    <rect x="130" y="128" width="340" height="226" rx="18" fill="url(#frame)"/>
+    <rect x="144" y="142" width="312" height="198" rx="8" fill="#ffffff"/>
+    <path d="M96 354 H504 L486 384 Q482 392 472 392 H128 Q118 392 114 384 Z" fill="url(#base)"/>
+    <rect x="262" y="354" width="76" height="8" rx="4" fill="#a9b5da"/>
+  </g>
+
+  <!-- conteúdo da tela: vitrine -->
+  <circle cx="160" cy="156" r="4" fill="#ef4444"/>
+  <circle cx="173" cy="156" r="4" fill="#f59e0b"/>
+  <circle cx="186" cy="156" r="4" fill="#22c55e"/>
+  <rect x="226" y="149" width="150" height="14" rx="7" fill="#eef2fb"/>
+  <circle cx="236" cy="156" r="3.5" fill="none" stroke="#9aa8cf" stroke-width="1.6"/>
+
+  <rect x="160" y="176" width="280" height="56" rx="10" fill="#e8eeff"/>
+  <rect x="172" y="186" width="36" height="36" rx="9" fill="#3f63d8"/>
+  <rect x="218" y="190" width="110" height="9" rx="4.5" fill="#3f63d8" opacity=".85"/>
+  <rect x="218" y="206" width="76" height="7" rx="3.5" fill="#a9b7e6"/>
+  <rect x="378" y="193" width="50" height="22" rx="11" fill="url(#bar)"/>
+
+  <g>
+    <rect x="160" y="248" width="40" height="40" rx="10" fill="#f7926f"/>
+    <rect x="216" y="248" width="40" height="40" rx="10" fill="#22b07d"/>
+    <rect x="272" y="248" width="40" height="40" rx="10" fill="#8b5cf6"/>
+    <rect x="328" y="248" width="40" height="40" rx="10" fill="#f59e0b"/>
+    <rect x="384" y="248" width="40" height="40" rx="10" fill="#0ea5e9"/>
+    <rect x="160" y="298" width="40" height="6" rx="3" fill="#dbe2f4"/>
+    <rect x="216" y="298" width="40" height="6" rx="3" fill="#dbe2f4"/>
+    <rect x="272" y="298" width="40" height="6" rx="3" fill="#dbe2f4"/>
+    <rect x="328" y="298" width="40" height="6" rx="3" fill="#dbe2f4"/>
+    <rect x="384" y="298" width="40" height="6" rx="3" fill="#dbe2f4"/>
+    <rect x="160" y="312" width="28" height="5" rx="2.5" fill="#e8ecf7"/>
+    <rect x="216" y="312" width="28" height="5" rx="2.5" fill="#e8ecf7"/>
+    <rect x="272" y="312" width="28" height="5" rx="2.5" fill="#e8ecf7"/>
+    <rect x="328" y="312" width="28" height="5" rx="2.5" fill="#e8ecf7"/>
+    <rect x="384" y="312" width="28" height="5" rx="2.5" fill="#e8ecf7"/>
+  </g>
+
+  <!-- cartão de download (esquerda) -->
+  <g transform="translate(34 286)" filter="url(#shadow)">
+    <rect width="160" height="70" rx="14" fill="#ffffff"/>
+    <rect x="12" y="13" width="44" height="44" rx="11" fill="url(#peach)"/>
+    <path d="M34 24 V44 M26 37 L34 45 L42 37" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <rect x="66" y="18" width="78" height="8" rx="4" fill="#3d4a6b" opacity=".8"/>
+    <rect x="66" y="36" width="78" height="7" rx="3.5" fill="#e3e8f6"/>
+    <rect x="66" y="36" width="54" height="7" rx="3.5" fill="url(#bar)"/>
+  </g>
+
+  <!-- balão (esquerda, alto) -->
+  <g transform="translate(78 70)" filter="url(#shadow)">
+    <rect width="92" height="60" rx="20" fill="url(#peach)"/>
+    <path d="M24 56 L18 80 L44 58 Z" fill="#f7926f"/>
+    <rect x="20" y="20" width="52" height="9" rx="4.5" fill="#ffffff"/>
+    <rect x="20" y="34" width="34" height="8" rx="4" fill="#ffffff" opacity=".75"/>
+  </g>
+
+  <!-- nuvem (direita, alto) -->
+  <g transform="translate(418 58)" filter="url(#shadow)">
+    <path d="M26 78 Q2 78 2 56 Q2 36 24 34 Q30 8 60 8 Q88 8 96 32 Q124 32 124 56 Q124 78 100 78 Z" fill="url(#peach)"/>
+    <path d="M63 30 V58 M51 47 L63 59 L75 47" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- engrenagem (direita) -->
+  <g transform="translate(522 262)" filter="url(#shadow)">
+    <path fill="url(#orange)" d="M-7-34h14l3 9 9 4 8-5 10 10-5 8 4 9 9 3v14l-9 3-4 9 5 8-10 10-8-5-9 4-3 9h-14l-3-9-9-4-8 5-10-10 5-8-4-9-9-3v-14l9-3 4-9-5-8 10-10 8 5 9-4z"/>
+    <circle r="12" fill="#ffffff"/>
+  </g>
+
+  <!-- selo de verificado -->
+  <g transform="translate(456 338)" filter="url(#shadow)">
+    <circle r="24" fill="#22b07d"/>
+    <path d="M-9 0 L-2 8 L10 -7" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- detalhes -->
+  <circle cx="74" cy="214" r="6" fill="#6b7cf6" opacity=".55"/>
+  <circle cx="540" cy="168" r="5" fill="#4ea3f8" opacity=".6"/>
+  <circle cx="556" cy="370" r="7" fill="#f7926f" opacity=".5"/>
+  <circle cx="210" cy="60" r="4" fill="#4ea3f8" opacity=".6"/>
+</svg>
